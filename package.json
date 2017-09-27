@@ -1,7 +1,11 @@
 {
     "name": "guessing-game",
     "version": "1.0.0",
-    "description": "",
+  "description": "",
+  "repository" : {     
+     "type" : "git",
+      "url" : "https://github.com/caeterisque/guessing-game.git" 
+   },
     "scripts": {
         "test": "mocha -r ./test/setup-mocha.js",
         "start": "webpack-dev-server"
